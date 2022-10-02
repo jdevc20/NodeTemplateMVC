@@ -4,7 +4,7 @@ const router = express.Router();
 
 const controller = require('../controllers/indexController')
 router.get('/', controller.index)
-router.get('/', controller.indexAddToDo)
+router.post('/', controller.indexAddToDo)
 
 
 
